@@ -1,0 +1,14 @@
+import os 
+
+list_files = []
+new_list_files = []
+
+path_to_dir = input('Enter a path - ')
+list_dir = os.listdir(path_to_dir)
+
+for file in list_files:
+    print(file)
+
+
+
+

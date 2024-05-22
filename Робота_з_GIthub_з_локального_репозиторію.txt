@@ -1,0 +1,16 @@
+     Робота з Github.com
+1. Зареєструватися на github або увійти в свій акаунт
+2. На сайті створити новий репозіторій 
+3. За інструкцією з сайту в VS Code ввести наступні команди
+  git remote add origin https://github.com/MisterIf/tkinter.git
+  git branch -M main
+  git push -u origin main  
+  Для останьої команди потрібно авторизуватися через браузер чи отримати свій token code
+  
+  4. Додати код в програму (все зберегти) і потім виконати наступні команди
+	git add .
+	git commit -m "Add ..."
+	git push або git push -u origin main
+	
+	Після цього всі зміни зальються на віддалений репозиторій
+
